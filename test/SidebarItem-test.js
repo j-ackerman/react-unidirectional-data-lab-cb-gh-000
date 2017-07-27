@@ -1,10 +1,11 @@
 'use strict';
-
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import sinon from 'sinon';
 
 import SidebarItem from '../components/SidebarItem';
+
+
 
 describe('<SidebarItem />', function() {
   it('should render li', function() {

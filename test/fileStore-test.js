@@ -1,8 +1,8 @@
-'use strict';
 
 import fileStore from '../stores/fileStore';
-const FileStore = fileStore.constructor;
 import Store from '../stores/Store';
+const FileStore = fileStore.constructor;
+'use strict';
 
 describe('fileStore', function() {
   it('should be an object', function() {
